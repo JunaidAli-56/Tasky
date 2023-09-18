@@ -9,6 +9,7 @@ export default function Index() {
         <BrowserRouter>
             <Routes>
                 <Route path="/*" element={<PrivateRoute Component={Frontend} />} />
+                {/* <Route path="/*" element={<Frontend/>} /> */}
                 <Route path="/auth/*" element={<Auth />} />
             </Routes>
         </BrowserRouter>

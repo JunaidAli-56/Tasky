@@ -157,7 +157,7 @@ export default function Footer() {
             </section>
           </MDBFooter>
           <p className='text-center fw-bold pt-4 pb-2'>
-            Made by Usama & Ahmed
+            Made by Jarviz
             <img src={heart} alt="Bootstrap" width="18" height="18" className='ms-1 mb-1'></img>
           </p>
         </div>

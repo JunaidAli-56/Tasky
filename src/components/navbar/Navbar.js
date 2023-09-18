@@ -29,7 +29,7 @@ export default function myNavbar() {
             color="inherit"
             hideIn="xs"
           >
-            TaskPit
+            Tasky
           </Text>
         </Navbar.Brand>
 
