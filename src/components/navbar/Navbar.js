@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { Navbar, Text } from '@nextui-org/react';
+import { Navbar, Text, Button } from '@nextui-org/react';
 import { Box } from './Box.js';
 import { AcmeLogo } from './AcmeLogo.js';
-import { Button } from '@mui/material';
+// import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 export default function myNavbar() {
@@ -42,11 +42,17 @@ export default function myNavbar() {
           }}
         >
           {/* <Button>Login</Button> */}
-          <Button
+          {/* <Button
             size="small"
             variant="contained"
           >
             <Link to={'/auth/login'} className='mt-1 px-3 text-decoration-none text-white'>Login</Link>
+          </Button> */}
+          <Button
+            auto
+            shadow
+          >
+            <Link to={'/auth/login'} className=' px-3 text-decoration-none text-white'>Login</Link>
           </Button>
         </Navbar.Content>
       </Navbar>

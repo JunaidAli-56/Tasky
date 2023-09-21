@@ -100,8 +100,8 @@ export default function BasicTabs() {
           index={1}
         >
           <div className="container-fluid m-0 p-0">
-            <div className="row">
-              <div className="col-12  d-flex justify-content-between bg-white rounded-4 px-4 py-2 align-items-center mb-4">
+            <div className="row m-0 p-0">
+              <div className="col-12 d-flex justify-content-between rounded-4 px-4 py-2 align-items-center mb-4">
                 <p className="fw-bold fs-3 mt-2">Add Task</p>
                 <Button
                   auto
